@@ -1,0 +1,46 @@
+{
+  "name": "opencode-agentation-mcp",
+  "version": "1.0.0",
+  "description": "Connect OpenCode agents to Agentation UI annotation system via MCP",
+  "main": "tools.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx agentation-mcp server --port 4747",
+    "test": "ts-node --esm test.ts",
+    "demo": "ts-node --esm demo.ts",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "opencode",
+    "agentation",
+    "mcp",
+    "ui-annotations",
+    "ai-agents",
+    "model-context-protocol"
+  ],
+  "author": "Siddhesh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/opencode-agentation-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/opencode-agentation-mcp/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/opencode-agentation-mcp#readme",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "agentation-mcp": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
