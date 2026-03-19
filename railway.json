@@ -1,5 +1,6 @@
 {
   "$schema": "railway.json",
+  "project": "15d21ba2-523b-48b9-a741-0f58c21f823d",
   "build": {
     "builder": "NIXPACKS",
     "nixpacks": {
