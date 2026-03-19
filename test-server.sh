@@ -3,7 +3,7 @@
 # Test Agentation MCP Server
 # Usage: ./test.sh [URL]
 
-AGENTATION_URL="${1:-https://opencode-agentation-mcp-production.up.railway.app}"
+AGENTATION_URL="${1:-https://earnest-nurturing-production-d469.up.railway.app}"
 
 echo "🧪 Testing Agentation MCP Server"
 echo "================================="

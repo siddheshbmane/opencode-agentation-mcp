@@ -2,7 +2,7 @@
   "mcpServers": {
     "agentation": {
       "command": "npx",
-      "args": ["-y", "agentation-mcp", "server", "--http-url", "https://opencode-agentation-mcp-production.up.railway.app"]
+      "args": ["-y", "agentation-mcp", "server", "--http-url", "https://earnest-nurturing-production-d469.up.railway.app"]
     }
   }
 }

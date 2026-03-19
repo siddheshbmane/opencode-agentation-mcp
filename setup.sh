@@ -7,7 +7,7 @@ echo "🚀 Agentation MCP Setup Script"
 echo "=============================="
 
 # Variables
-AGENTATION_URL="https://opencode-agentation-mcp-production.up.railway.app"
+AGENTATION_URL="https://earnest-nurturing-production-d469.up.railway.app"
 
 echo ""
 echo "📝 Step 1: Testing Connection to Railway Deployment"

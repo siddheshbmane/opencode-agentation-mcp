@@ -2,7 +2,7 @@
 
 ## 🚀 Your Agentation MCP Server
 
-**URL:** `https://opencode-agentation-mcp-production.up.railway.app`
+**URL:** `https://earnest-nurturing-production-d469.up.railway.app`
 
 **Status:** ⏳ Waiting for deployment
 
