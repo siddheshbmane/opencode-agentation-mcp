@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  agentation-mcp:
+    build: .
+    ports:
+      - "4747:4747"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:4747/health"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
