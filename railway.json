@@ -1,0 +1,17 @@
+{
+  "$schema": "railway.json",
+  "build": {
+    "builder": "NIXPACKS",
+    "nixpacks": {
+      "language": "nodejs"
+    }
+  },
+  "deploy": {
+    "numReplicas": 1,
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 10,
+    "healthCheckPath": "/health",
+    "port": 4747,
+    "startCommand": "npx agentation-mcp server --port 4747"
+  }
+}

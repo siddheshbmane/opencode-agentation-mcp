@@ -1,0 +1,12 @@
+{
+  "name": "opencode-agentation-mcp",
+  "version": "1.0.0",
+  "buildCommand": "npm install -g agentation-mcp",
+  "startCommand": "npx agentation-mcp server --port $PORT",
+  "healthCheckPath": "/health",
+  "envVars": {
+    "NODE_ENV": {
+      "value": "production"
+    }
+  }
+}
